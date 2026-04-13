@@ -1,24 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="ovitrampa, dengue,mosquito">
-    <link rel="stylesheet" href="/front/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
-
     <title>Ovitrampa</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
 
 <body>
-    <h1>Mapa Ovitrampa</h1>
-    <div id="map">
-        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-        <script src="/front/index.html"></script>
+
+    <header>
+        <h1> Monitoramento de Dengue</h1>
+        <p>Município de Brasilândia - MS</p>
+    </header>
+
+    <div class="container">
+        <div id="map"></div>
     </div>
 
+    <footer>
+        <p>Projeto de Iniciação Científica</p>
+    </footer>
 
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
 
 </body>
 
